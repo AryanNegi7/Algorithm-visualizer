@@ -1,0 +1,25 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(50, 1fr);
+    grid-gap:2px;
+
+}
+
+.btn-visualize
+{
+    background: transparent;
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: 2px solid #4CAF50;
+    cursor: pointer;
+    border-radius: 5px;
+    /* width: 100%; */
+    transition: background 0.5s;
+}
+
+.btn-visualize:hover
+{
+    background: #4CAF50;
+    color: black;
+}
